@@ -1,0 +1,28 @@
+{
+  "name": "PersonalEmailAutomation",
+  "description": "Personal Email Automation.\r\nSplits the unread emails based on their subject and does specific actions. In my case, there will be emails with a specific subject that will be posted to Facebook. The other emails will be filtered and centralized in a Google Sheets document. Then they will be sorted using different params.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.UIAutomation.Activities": "[19.3.0]",
+    "UiPath.System.Activities": "[19.3.0]",
+    "UiPath.Excel.Activities": "[2.5.2]",
+    "UiPathTeam.GoogleSpreadsheet.Activities": "[1.0.2.1]",
+    "LibreOfficeLibrary": "[1.0.6]",
+    "UiPath.Mail.Activities": "[1.0.5992.2565]"
+  },
+  "schemaVersion": "3.2",
+  "studioVersion": "19.3.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ]
+  },
+  "projectType": "Workflow",
+  "libraryOptions": {
+    "includeOriginalXaml": false,
+    "privateWorkflows": []
+  }
+}
